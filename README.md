@@ -1,8 +1,5 @@
 # Frontend Mentor - Intro section with dropdown navigation
 
-https://enzomf.github.io/Intro-section-with-dropdown-navigation/
-
-
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋

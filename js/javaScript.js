@@ -8,12 +8,14 @@ function menu(){
 
     if( estate.style.display == ""){
         estate.style.animationName = "animationMenuOpen"
-        document.body.style.overflow = "scroll"
+     
+
         estate.style.display ="block"
         document.getElementById("black").style.display = "block"
        
     }else{
-        document.body.style.overflow = "hidden"
+     
+
 
         estate.style.animationName = "animationMenuClose"
         document.getElementById("black").style.display = ""
