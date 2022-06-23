@@ -49,8 +49,8 @@
         <div id="menuOpen">
           <ul id="category">
 
-            <li>
-              <span id = "features"onclick="menuOpen(1)">Features <svg id = "featuresArrow" id="first" width="10" height="6"
+            <li class ="headerMenu">
+              <span id = "features"onclick="menuOpen(1)">Features <svg id = "featuresArrow"  class = "arrow"id="first" width="10" height="6"
                   xmlns="http://www.w3.org/2000/svg">
                   <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
                 </svg>
@@ -93,10 +93,10 @@
             </li>
 
 
-            <li>
+            <li  class ="headerMenu">
              <span onclick="menuOpen(2)"> Company
 
-              <svg width="10" id = "companyArrow"  height="6" xmlns="http://www.w3.org/2000/svg">
+              <svg width="10" id = "companyArrow"  class = "arrow" height="6" xmlns="http://www.w3.org/2000/svg">
                 <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
               </svg>
               </span>
@@ -111,8 +111,8 @@
             </li>
 
 
-            <li><a href="">Careers</a></li>
-            <li><a href="">About </a></li>
+            <li  class ="headerMenu"><a href="">Careers</a></li>
+            <li  class ="headerMenu"><a href="">About </a></li>
           </ul>
 
           <div id="account">
@@ -129,28 +129,33 @@
 
       <section id="image">
         <img id="mobileImage" src="images/image-hero-mobile.png">
-      </section>
+        <img id="desktopImage" src = "images/image-hero-desktop.png"> 
+           </section>
 
       <section id="content">
 
         <h1>Make remote work</h1>
 
-        <p>Get your team in sync, no matter your <br> location. Streamline processes, create team rituals, and watch
+        <p>Get your team in sync, no matter your  location. Streamline processes, create team rituals, and watch
           productivity soar.</p>
 
         <button>Learn more</button>
+
+
+        <footer>
+    
+          <img src="images/client-databiz.svg">
+          <img src="images/client-audiophile.svg">
+          <img src="images/client-meet.svg">
+          <img src="images/client-maker.svg">
+          
+        </footer>
+
+
       </section>
 
     </main>
 
-    <footer>
-
-      <img src="images/client-databiz.svg">
-      <img src="images/client-audiophile.svg">
-      <img src="images/client-meet.svg">
-      <img src="images/client-maker.svg">
-
-    </footer>
 
   </div>
 
