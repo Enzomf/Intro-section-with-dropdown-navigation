@@ -62,6 +62,7 @@ header{
 
 #mobileImage{
     width: 100%;
+   
 }
 
 
@@ -102,6 +103,7 @@ header{
      font-size: 18px;
      border: hsl(0, 0%, 8%) solid 1px;
      font-weight: 700;
+     
  }
 
  footer{
@@ -130,6 +132,7 @@ header{
     height: 120vh;
     background-color: hsl(0, 0%, 98%);
     position: fixed;
+    right: 0;
     
     z-index:-1;
     float: inline-end; 
@@ -137,7 +140,7 @@ header{
 }
 
 #menuOpen #category{
-    margin-top: 50px;
+    margin-top: 80px;
     
 }
 
@@ -172,12 +175,16 @@ header{
 ul#companyExtended{
    margin-top: 10px;
    margin-left: 20px;
+   display: none;
+   animation: menuExpansion 1s;
     
 }
 
 ul#featuresExtended{
     margin-top: 10px;
     margin-left: 20px;
+    display: none;
+    animation: menuExpansion 1s;
 }
 
 ul#featuresExtended li a{
@@ -209,6 +216,30 @@ ul#featuresExtended li a{
     z-index: -1;
 }
 
+
+
+.line {
+    transition: 0.5s;
+    display: fixed;
+}
+
+.change #line1{
+    transform: translateY(10px) rotateZ(45deg);
+    transition: 1s;
+}
+
+.change #line2{
+    opacity: 0;
+}
+
+.change #line3 {
+    transform: translateY(-10px) rotateZ(-45deg);
+    transition: 1s;
+}
+
+
+
+
 @keyframes animationMenuOpen {
     from{
         transform: translateX(200px);
@@ -227,6 +258,60 @@ ul#featuresExtended li a{
     to {
         transform: translateX(400px);
     }
+}
+
+
+
+#menuClick div {
+    width: 32px;
+    height: 2px;
+    margin: 8px;
+    background-color: hsl(0, 0%, 8%);
+}
+
+#menu {
+    display: flex;
+    justify-content: right;
+  
+}
+
+
+
+
+@keyframes menuExpansion {
+   from{
+        transform: translateY(-20px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes menuRetration {
+    from{
+        transform: translateY(0);
+    }
+
+    to{
+        transform: translateY(-40px);
+    }
+}
+
+
+
+
+
+@keyframes animacao {
+
+    from{
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+    
 }
 
 

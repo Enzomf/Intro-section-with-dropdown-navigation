@@ -2,8 +2,6 @@
 
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 
-https://enzomf.github.io/Intro-section-with-dropdown-navigation/
-
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
